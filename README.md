@@ -7,15 +7,16 @@ A role-based Task Management System built with **Laravel 10**, **Breeze**, and *
 ## Features
 
 - 🧑‍💼 **Multi-auth system** (Admin & Agent)
-- ✅ Admin can:
+- I Used seeder . here is admin credentials .'email' => 'admin@gmail.com','password' => Hash::make('123456'),
+-  Admin can:
   - Create/Edit/Delete Tasks
   - Assign tasks to multiple agents
   - Toggle task visibility on agent dashboard
-- 👤 Agent can:
+- Client can:
   - View assigned tasks
   - Mark tasks as complete
-- 🛡️ Role-based route protection
-- 🎨 Simple Bootstrap-based UI
+-  Role-based route protection
+-  Simple Bootstrap-based UI
 
 ---
 
@@ -70,13 +71,3 @@ Bootstrap 5
 
 MySQL
 
-License
-This project is open-source and available under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want to add project screenshots, badges, or deployment instructions (e.g., for H
